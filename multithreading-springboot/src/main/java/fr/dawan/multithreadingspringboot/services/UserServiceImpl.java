@@ -46,6 +46,7 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
+	@Async
 	public CompletableFuture<List<User>> findAllUsers() {
 		logger.info("get list users by "+Thread.currentThread().getName());
 

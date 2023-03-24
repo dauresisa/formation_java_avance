@@ -98,9 +98,7 @@ public class UsersController {
 	
 	@GetMapping(value = "/usersByThread", produces = "application/json")
 	public ResponseEntity<User> getUsersByThread(){
-		CompletableFuture<List<User>> user1=userService.findAllUsers();
-		
-		
+		CompletableFuture<List<User>> user1=userService.findAllUsers();		
 		
 		CompletableFuture<List<User>> user2=userService.findAllUsers();
 		CompletableFuture<List<User>> user3=userService.findAllUsers();

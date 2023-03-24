@@ -34,7 +34,7 @@ public class AsyncConfig {
      * 
      */
 	
-	@Bean
+	@Bean(name="taskExecutor")
 	public Executor taskExecutor() {
 		ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
 		//corePoolSize : nombre de threads minimum à conserver dans le pool, mm lorsqu'ils sont inactifs
