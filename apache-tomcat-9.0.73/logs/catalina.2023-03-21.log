@@ -1,0 +1,57 @@
+21-Mar-2023 09:42:53.420 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+21-Mar-2023 09:42:53.433 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+21-Mar-2023 09:42:53.448 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+21-Mar-2023 09:42:53.470 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+21-Mar-2023 09:46:31.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.73
+21-Mar-2023 09:46:31.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 27 2023 15:33:40 UTC
+21-Mar-2023 09:46:31.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.73.0
+21-Mar-2023 09:46:31.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+21-Mar-2023 09:46:31.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+21-Mar-2023 09:46:31.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+21-Mar-2023 09:46:31.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-17
+21-Mar-2023 09:46:31.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.6+9-LTS-190
+21-Mar-2023 09:46:31.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+21-Mar-2023 09:46:31.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Formation java avance Dawan\apache-tomcat-9.0.73
+21-Mar-2023 09:46:31.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Formation java avance Dawan\apache-tomcat-9.0.73
+21-Mar-2023 09:46:31.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2023 09:46:31.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+21-Mar-2023 09:46:31.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+21-Mar-2023 09:46:31.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Mar-2023 09:46:31.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2023 09:46:31.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Formation java avance Dawan\apache-tomcat-9.0.73\conf\logging.properties
+21-Mar-2023 09:46:31.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2023 09:46:31.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2023 09:46:31.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Mar-2023 09:46:31.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+21-Mar-2023 09:46:31.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Formation java avance Dawan\apache-tomcat-9.0.73
+21-Mar-2023 09:46:31.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Formation java avance Dawan\apache-tomcat-9.0.73
+21-Mar-2023 09:46:31.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Formation java avance Dawan\apache-tomcat-9.0.73\temp
+21-Mar-2023 09:46:31.461 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [1.2.36] en utilisant APR version [1.7.2]
+21-Mar-2023 09:46:31.462 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Fonctionnalités d'APR : IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true]
+21-Mar-2023 09:46:31.463 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Configuration de APR/OpenSSL : useAprConnector [false], useOpenSSL [true]
+21-Mar-2023 09:46:31.468 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 1.1.1t  7 Feb 2023]
+21-Mar-2023 09:46:31.725 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+21-Mar-2023 09:46:31.747 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [922] millisecondes
+21-Mar-2023 09:46:31.795 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+21-Mar-2023 09:46:31.795 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.73]
+21-Mar-2023 09:46:31.804 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Formation java avance Dawan\apache-tomcat-9.0.73\webapps\docs]
+21-Mar-2023 09:46:32.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Formation java avance Dawan\apache-tomcat-9.0.73\webapps\docs] de l'application web s'est terminé en [313] ms
+21-Mar-2023 09:46:32.124 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Formation java avance Dawan\apache-tomcat-9.0.73\webapps\examples]
+21-Mar-2023 09:46:32.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Formation java avance Dawan\apache-tomcat-9.0.73\webapps\examples] de l'application web s'est terminé en [608] ms
+21-Mar-2023 09:46:32.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Formation java avance Dawan\apache-tomcat-9.0.73\webapps\host-manager]
+21-Mar-2023 09:46:32.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Formation java avance Dawan\apache-tomcat-9.0.73\webapps\host-manager] de l'application web s'est terminé en [43] ms
+21-Mar-2023 09:46:32.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Formation java avance Dawan\apache-tomcat-9.0.73\webapps\manager]
+21-Mar-2023 09:46:32.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Formation java avance Dawan\apache-tomcat-9.0.73\webapps\manager] de l'application web s'est terminé en [42] ms
+21-Mar-2023 09:46:32.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Formation java avance Dawan\apache-tomcat-9.0.73\webapps\ROOT]
+21-Mar-2023 09:46:32.843 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Formation java avance Dawan\apache-tomcat-9.0.73\webapps\ROOT] de l'application web s'est terminé en [25] ms
+21-Mar-2023 09:46:32.847 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+21-Mar-2023 09:46:32.904 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1157] millisecondes
+21-Mar-2023 09:47:03.632 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\Formation java avance Dawan\apache-tomcat-9.0.73\webapps\calculweb.war] de l'application web
+21-Mar-2023 09:47:03.731 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+21-Mar-2023 09:47:03.736 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\Formation java avance Dawan\apache-tomcat-9.0.73\webapps\calculweb.war] s'est terminé en [105] ms
+21-Mar-2023 09:48:03.481 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/calculweb]
+21-Mar-2023 09:48:03.999 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/calculweb]
+21-Mar-2023 09:48:27.059 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+21-Mar-2023 09:48:27.070 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+21-Mar-2023 09:48:27.085 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+21-Mar-2023 09:48:27.101 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
